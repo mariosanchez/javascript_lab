@@ -1,0 +1,23 @@
+{
+  "name": "javascript_lab",
+  "version": "1.0.0",
+  "description": "Test project",
+  "main": "index.js",
+  "repository": "https://github.com/mariosanchez/javascript_lab.git",
+  "author": "Mario Sánchez <mr.mario.sm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ./src/**/*",
+    "precommit": "yarn lint",
+    "prepush": "yarn lint"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "husky": "^0.13.1"
+  }
+}
